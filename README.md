@@ -1,4 +1,4 @@
-# KCMT Canteen - Food Ordering & Management System
+# KCMT Canteen - Food Ordering & Management
 
 This project is designed to streamline the process of ordering food at the KCMT canteen, reducing the time students spend in queues. With this system, students can place their orders online, and the canteen staff can manage these orders through an admin panel.
 
