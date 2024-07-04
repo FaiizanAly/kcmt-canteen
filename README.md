@@ -85,7 +85,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or suggestions, please contact:
 
-- Name: Faizan Aly
+- Name: Faizan Ali
 - Email: itsfaizanali5@gmail.com
 
 ---
