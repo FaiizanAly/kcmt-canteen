@@ -1,0 +1,375 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.divaos {
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+    margin: 50px;
+}
+
+.btnnn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: 2px solid hsl(38deg 84.67% 61.48%);
+    color: black;
+    background-color: hsl(38deg 84.67% 61.48%);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btnnn:hover {
+    background-color: black;
+    color: hsl(38deg 84.67% 61.48%);
+    transition: 0.5s ea;
+}
+
+h1.m-0 {
+    color: hsl(38deg 84.67% 61.48%);
+    font-weight: bold;
+}
+
+/********************************************** navbar*****************************************************/
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+a.nav-item.nav-link {
+    color: white;
+    font-weight: 700;
+}
+
+a.nav-item.nav-link.active {
+    color: hsl(38deg 84.67% 61.48%);
+}
+
+
+/* @media (min-width: 992px) { */
+.navbar-dark {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    z-index: 999;
+    background: transparent !important;
+    transition: 0.8s;
+}
+
+.sticky-top.navbar-dark {
+    position: fixed;
+    background: hsla(40, 12%, 5%, 1) !important;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* } */
+
+a.nav-item {
+    position: relative;
+}
+
+@media screen and (min-width:700px) {
+    a.nav-item::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        display: block;
+        height: 5px;
+        border-block: 2px solid hsl(38deg 84.67% 61.48%);
+        bottom: 15%;
+        width: 85%;
+        left: 5px;
+        opacity: 0;
+        transition: .5s;
+        transform: scaleX(0.1);
+    }
+
+    a.nav-item:hover:after {
+        color: rgb(117, 35, 35);
+        opacity: 1;
+        transform: scaleX(1);
+    }
+
+    a.nav-item:hover {
+        color: hsl(38deg 84.67% 61.48%);
+    }
+}
+
+
+
+/***************************************************carousel**************************************************/
+#carouselExampleControls {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.carousel-item img {
+    height: 100vh;
+    animation: slider 7s linear forwards;
+}
+
+.btnnncaro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: 2px solid hsl(38deg 84.67% 61.48%);
+    background-color: black;
+    text-decoration: none;
+    color: hsl(38deg 84.67% 61.48%);
+    transition: 0.5s;
+}
+
+.btnnncaro:hover {
+    color: black;
+    background-color: hsl(38deg 84.67% 61.48%);
+    transition: 0.5s ea;
+}
+
+@keyframes slider {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.12);
+    }
+}
+
+/* *******************************************carousel caption************************************************** */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+}
+
+h1.carose {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 5vw;
+    margin-bottom: 50px;
+}
+
+
+
+.carousel-caption h1.carose,
+p.carose,
+a.carose {
+    animation: slide 3s ease-in-out forwards;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(-30px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.carousel-caption p.carose {
+    animation-delay: 100ms;
+}
+
+.carousel-caption a.carose {
+    animation-delay: 200ms;
+    padding: 500px;
+}
+
+.carose-img {
+    background-size: cover;
+}
+
+figure.figure.fig1.col-3 {
+    position: absolute;
+    left: 6%;
+    top: 50%;
+}
+
+figure.figure.fig2.col-3 {
+    position: absolute;
+    left: 38%;
+}
+
+figure.figure.fig3.col-3 {
+    position: absolute;
+    left: 70%;
+    top: 50%;
+}
+
+/* ***********************************************service*************************************** 
+*/
+#service {
+    background-color: #000;
+}
+.servicecon {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    padding: 40px;
+    color: hsl(38deg 84.67% 61.48%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img.figure-img.img-fluid.rounded {
+    width: 230px;
+    height: 300px;
+
+}
+
+.figure:hover {
+    transform: scale(1.05);
+}
+
+figure.figure.fig1 {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    box-shadow: 0px 2px 33px 6px #66625b;
+    
+}
+
+figure.figure.fig2 {
+    position: absolute;
+    left: 41%;
+    top: 40%;
+    box-shadow: 0px 2px 33px 6px #66625b;
+}
+
+figure.figure.fig3 {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    box-shadow: 0px 2px 33px 6px #66625b;
+}
+
+a.figviewmenu {
+    text-decoration: none;
+    color: hsl(38deg 84.67% 61.48%);
+    font-size: small;
+    font-weight: bold;
+}
+
+.figure-caption h3 {
+    color: white;
+}
+
+p.service {
+    color: white;
+}
+
+h2.service {
+    font-size: xxx-large;
+    font-family: cursive;
+}
+
+
+/* //////////////////////////////////////////////////about us */
+section#about {
+    background-clip: black;
+    background-color: #101212;
+}
+
+.aboutimg:hover {
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(2deg);
+}
+
+div#\#about {
+    color: white;
+}
+
+h1.mb-4 {
+    color: hsl(38deg 84.67% 61.48%);
+}
+
+.col-sm-6 {
+    color: hsl(38deg 84.67% 61.48%);
+}
+
+
+/*/////////////////////////////////////////////////// menu////////////////////////////////////////////////////////*/
+img.card-img-top {
+    padding: 20PX;
+    border-radius: 15%;
+    width: auto;
+    height: 220px;
+}
+
+.menubutton {
+    background-color: hsl(38deg 84.67% 61.48%);
+}
+
+.menubutton:hover {
+    background-color: hsl(39, 46%, 64%);
+}
+
+
+
+
+h2.card-title.text-center {
+    font-weight: bold;
+}
+
+h1.text-center.py-4 {
+    color: hsl(38deg 84.67% 61.48%);
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.contianer-xxl {
+    background-color: black;
+}
+
+/*                         menu                               */
+section#menu {
+    background-color: black;
+    text-transform: capitalize;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 88%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 1px #ebb513;
+}
+
+/* .card img {
+    
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+} */
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
