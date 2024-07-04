@@ -79,7 +79,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Special thanks to the KCMT community for their support and feedback.
 - Inspired by the need to improve the canteen experience for students and staff.
 
 ## Contact
