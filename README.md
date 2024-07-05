@@ -45,7 +45,7 @@ This project is designed to streamline the process of ordering food at the KCMT 
     - Import the `kcmt-canteen.sql` file into your database.
 
 4. Configure the database connection:
-    - Open `config.php` and update the database connection details:
+    - Open `connect.php` and update the database connection details:
       ```php
       <?php
       $host = 'your_host';
