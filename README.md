@@ -1,6 +1,12 @@
+Here’s the updated README with the link added:
+
+---
+
 # KCMT Canteen - Food Ordering & Management
 
 This project is designed to streamline the process of ordering food at the KCMT canteen, reducing the time students spend in queues. With this system, students can place their orders online, and the canteen staff can manage these orders through an admin panel.
+
+### 🌐 [Try the Live Demo](http://kcmtcanteen.free.nf)  
 
 ## Features
 
@@ -90,4 +96,8 @@ For any questions or suggestions, please contact:
 
 ---
 
-Thank you for using the KCMT Canteen - Food Ordering & Management System!
+Thank you for using the KCMT Canteen - Food Ordering & Management System!  
+
+---
+
+This version adds the live demo link to make the README more engaging and accessible for users. Let me know if there’s anything else you'd like to include!
