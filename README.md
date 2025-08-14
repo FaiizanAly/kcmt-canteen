@@ -89,6 +89,7 @@ For any questions or suggestions, please contact:
 
 - Name: Faizan Ali
 - Email: itsfaizanali5@gmail.com
+- Instagram: [@FaiizanAly](https://www.instagram.com/faiizanaly)
 
 ---
 
